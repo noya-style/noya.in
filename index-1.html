@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noya | Minimal Streetwear & Loungewear</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f8f3eb;
+      color: #111;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 60px;
+      background-color: #f8f3eb;
+      border-bottom: 1px solid #d6cfc3;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #000;
+    }
+
+    nav a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: #2e2e2e;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #cfae6d;
+    }
+
+    .hero {
+      height: 100vh;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('https://png.pngtree.com/thumb_back/fh260/background/20230425/pngtree-fashion-store-interior-of-a-men-s-clothing-store-image_2519173.jpg') center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 60px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 24px;
+    }
+
+    .hero button {
+      background-color: #cfae6d;
+      color: #000;
+      padding: 14px 30px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      transition: background 0.3s;
+    }
+
+    .hero button:hover {
+      background-color: #b79754;
+    }
+
+    .section {
+      padding: 80px 60px;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 40px;
+      margin-bottom: 24px;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .section p {
+      font-size: 18px;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+
+    .highlight {
+      background-color: #fffaf3;
+      padding: 60px;
+      margin: 40px auto;
+      border-radius: 10px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      object-fit: cover;
+      height: 420px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+
+    .footer {
+      background: #000;
+      color: white;
+      padding: 30px 60px;
+      text-align: center;
+      font-size: 14px;
+    }
+  .gallery p {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #333;
+      text-align: center;
+    }
+
+    </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">NOYA</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#new-arrivals">New Arrivals</a>
+      <a href="#signature">Signature Collection</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Minimal Meets Bold</h1>
+    <p>Refined streetwear & elegant loungewear for modern women</p>
+    <button>Explore Collection</button>
+  </section>
+
+  <section class="section" id="new-arrivals">
+    <h2>New Arrivals</h2>
+    <p>Discover our latest drop — a curation of seasonal must-haves for confident, classy style that turns heads softly.</p>
+    <div class="gallery">
+      <div>
+        <img src="https://www.ikkivi.com/cdn/shop/files/FOBA5123_58522d0b-204f-4e35-a328-377af93688ca_1024x1024@2x.jpg?v=1736139926" alt="Sandstone Trench Set">
+        <p><strong>Sandstone Trench Set</strong><br>$89<br><em>A structured beige trench paired with wide-leg trousers for urban comfort.</em></p>
+        <a href="#" style="display:inline-block;margin-top:10px;background-color:#cfae6d;color:#000;padding:8px 16px;text-decoration:none;font-weight:600;border-radius:4px;">Shop Now</a>
+       
+        
+      </div>
+      <div>
+        <img src="https://img-va.myshopline.com/image/store/1681718798653/perrie-3[76].jpeg?w=800&h=1200" alt="Vanilla Ribbed Co-Ord">
+        <p><strong>Vanilla Ribbed Co-Ord</strong><br>$72<br><em>Soft ribbed two-piece in creamy vanilla tones. Designed for ease and elegance.</em></p>
+        <a href="#" style="display:inline-block;margin-top:10px;background-color:#cfae6d;color:#000;padding:8px 16px;text-decoration:none;font-weight:600;border-radius:4px;">Shop Now</a>
+      </div>
+      <div>
+        <img src="https://shop.westside.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0266%2F6276%2F4597%2Ffiles%2F301010029GRAPHITE_1.jpg%3Fv%3D1740632285&w=2048&q=75" alt="Shadow Grey Lounge Fit">
+        <p><strong>Shadow Grey Lounge Fit</strong><br>$95<br><em>Relaxed fit in a moody grey, perfect for everyday understated luxury.</em></p>
+        <a href="#" style="display:inline-block;margin-top:10px;background-color:#cfae6d;color:#000;padding:8px 16px;text-decoration:none;font-weight:600;border-radius:4px;">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section highlight">
+    <h2>The Noya Way</h2>
+    <p>Noya is more than fashion. It’s movement. It’s calm confidence. We design for the woman who leads with grace and speaks through simplicity. Our garments blend minimal design, neutral tones, and timeless silhouettes to form effortless daily luxury.</p>
+  </section>
+
+  <section class="section">
+    <h2>Why Choose Noya?</h2>
+    <p>We believe fashion is power in silence. Our slow-crafted pieces are built to last, to feel right, and to make bold elegance your new standard. Eco-conscious, made with care, and tailored for you.</p>
+  </section>
+
+  
+  <section class="section" id="signature">
+    <h2>Our Signature Collection</h2>
+    <p>Step into your power with pieces designed to express elegance and ease. Inspired by the muted tones and textures of our home page, this collection carries that sophistication forward with breathable fabrics, refined silhouettes, and earthy hues.</p>
+    <div class="gallery">
+      <div>
+        <img src="https://i.pinimg.com/736x/e0/64/e1/e064e15b8e0a3beb4ca8661e71179bf0.jpg" alt="Minimal outfit 1">
+        <p><strong>Chic Layered Ensemble</strong><br>$89<br><em>Layered neutrals redefined — balance of structure and flow in one silhouette.</em></p>
+        <a href="#" style="display:inline-block;margin-top:10px;background-color:#cfae6d;color:#000;padding:8px 16px;text-decoration:none;font-weight:600;border-radius:4px;">Shop Now</a>
+      </div>
+      <div>
+        <img src="https://affroz.com/cdn/shop/files/TEJ_M1332.jpg?v=1692103765" alt="Minimal outfit 2">
+        <p><strong>Urban Cream Set</strong><br>$72<br><em>Lightweight urban set tailored in cream tones, ideal for warm elegance.</em></p>
+        <a href="#" style="display:inline-block;margin-top:10px;background-color:#cfae6d;color:#000;padding:8px 16px;text-decoration:none;font-weight:600;border-radius:4px;">Shop Now</a>
+      </div>
+      <div>
+        <img src="https://m.media-amazon.com/images/I/61UMSG6u4CL._AC_UY1100_.jpg" alt="Minimal outfit 3">
+        <p><strong>Muted Luxe Co-ord</strong><br>$95<br><em>Sophisticated co-ord with a luxe feel, for the woman who leads with minimalism.</em></p>
+        <a href="#" style="display:inline-block;margin-top:10px;background-color:#cfae6d;color:#000;padding:8px 16px;text-decoration:none;font-weight:600;border-radius:4px;">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>What Our Customers Say</h2>
+    <p>Real feedback from real women who wear Noya with pride.</p>
+    <div class="gallery">
+      <div>
+        <p><em>“Noya makes me feel powerful without trying too hard. The quality and fit are everything.”</em><br><strong>– Aanya R.</strong></p>
+      </div>
+      <div>
+        <p><em>“Timeless pieces that actually match my lifestyle. I’ve never felt more myself.”</em><br><strong>– Tara S.</strong></p>
+      </div>
+      <div>
+        <p><em>“Effortless fashion that’s gentle on the planet and fierce on the street.”</em><br><strong>– Meher V.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Stay Connected</h2>
+    <p>Be the first to know about new drops, styling tips, and exclusive offers.</p>
+    <form style="margin-top: 20px;">
+      <input type="email" placeholder="Enter your email" style="padding: 12px; width: 280px; max-width: 90%; border: 1px solid #ccc; border-radius: 4px;">
+      <button type="submit" style="padding: 12px 20px; background-color: #cfae6d; color: #000; border: none; font-weight: bold; border-radius: 4px; margin-left: 10px; cursor: pointer;">Subscribe</button>
+    </form>
+  </section>
+
+  <section class="section">
+    <h2>Follow Us On Instagram</h2>
+    <p>@noya.style — get inspired and tag us to get featured.</p>
+    <div class="gallery">
+      <img src="https://marketplace.canva.com/EAF7cBxLHh0/1/0/1600w/canva-beige-minimalist-fashion-discount-instagram-post-wEPqCO0rw2s.jpg" alt="Instagram post 1">
+      <img src="https://i.pinimg.com/736x/c9/a0/9f/c9a09fcfcbf56d72f8c2ac3ad4ffb904.jpg" alt="Instagram post 2">
+      <img src="https://marketplace.canva.com/EAE9B4I5zmE/1/0/1280w/canva-neutral-discount-promotion-fashion-boutique-portrait-instagram-post-ONxjIZ69pTI.jpg" alt="Instagram post 3">
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 NOYA. All rights reserved — Minimalism, Boldly Worn.</p>
+  </footer>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
